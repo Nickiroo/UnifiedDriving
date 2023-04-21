@@ -1,0 +1,39 @@
+Q: If I am going to be making a simulation with cars, what are some attributes tht each car should have like dimensions, acceleration curve, top speed, braking intensity, etc.?
+A: Here are some attributes that I think would be good to have:
+- Dimensions
+- Acceleration curve
+- Top speed
+- Braking intensity
+- Turning radius
+- Weight
+- Color
+- Percentage of speed as it relates to curves
+- Percentage of speed as it relates to hills
+- Percentage of speed as it relates to the speed limit
+- Ability to maintain driving in the center of the lane
+
+Q: What attributes should I give each section of the road?
+A: Here are some attributes that I think would be good to have:
+- Speed limit
+- number of lanes
+- width of lanes
+- position and size of hazards
+
+
+Q: What attributes should I give the simulation?
+A: Here are some attributes that I think would be good to have:
+- Time of day
+- Weather
+- Traffic density
+
+Q: What file type should I use and what structure should I use for the road system, which I will use to make a visualization? I dont think I want to use json
+A: I think that a csv file would be a good choice for the road system. The csv file would have the following columns:
+- x coordinate
+- y coordinate
+- width
+- height
+- speed limit
+- number of lanes
+- position and size of hazards
+
+Q: What library/tool/language should I use to make the simulation?
