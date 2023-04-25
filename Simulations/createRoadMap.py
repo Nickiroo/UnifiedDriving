@@ -74,12 +74,9 @@ def plotSegments():
         #segmentList[i][1] = node1
         #segmentList[i][2] = node2
         #connect node1 to node2
-        x1 = nodeList[segmentList[i][1]][1]
-        y1 = nodeList[segmentList[i][1]][2]
-        x2 = nodeList[segmentList[i][2]][1]
-        y2 = nodeList[segmentList[i][2]][2]
-        pygame.draw.line(screen, (255,0,0), (x1,y1), (x2,y2), 5)
-        pygame.draw.line(screen, (255,0,0), (x1+17.5,y1+17.5), (x2+17.5,y2+17.5), 5)
+        x1,y1 = nodeList[segmentList[i][1]][1], nodeList[segmentList[i][1]][2]
+        x2,y2 = nodeList[segmentList[i][2]][1], nodeList[segmentList[i][2]][2]
+        pygame.draw.line(screen, (255,0,0), (x1,y1), (x2,y2), 5);pygame.draw.line(screen, (255,0,0), (x1+17.5,y1+17.5), (x2+17.5,y2+17.5), 5)
         pygame.display.update()
 
 roadMapDisplayInit()
