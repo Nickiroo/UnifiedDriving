@@ -1,0 +1,100 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr 1fr;
+}
+
+#PID_data {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #d6d6d6;
+    padding: 2%;
+}
+
+#Navigation {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #838383;
+    padding: 2%;
+}
+
+#Turn_signals {
+    font-size: 700%;
+    font-weight: bolder;
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #838383;
+    padding: 2%;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#left_arrow_text {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    color: #00ff00;
+}
+
+#right_arrow_text {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    color: #00ff00;
+}
+
+#Speed_limit {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #313131;
+    text-align: center;
+    font-size: 200%;
+    color: cyan;
+    padding: 2%;
+    height: 300px;
+}
+
+#current_speed_limit {
+    color: red;
+}
+
+#Current_speed {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #313131;
+    text-align: center;
+    font-size: 200%;
+    color: cyan;
+    padding: 2%;
+    height: 300px;
+}
+
+#current_speed {
+    color: red;
+}
+
+#graphs {
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 2;
+    background-color: rgb(204, 196, 196);
+}

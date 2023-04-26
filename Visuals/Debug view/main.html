@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Debug view</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="https://cdn.plot.ly/plotly-1.35.2.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="PID_data">
+                The desired speed of the car is: <span id="speed"></span><br>
+                The desired acceleration % is: <span id="acceleration"></span><br>
+                The desired steering angle is: <span id="steering"></span><br>
+                The desired braking % is: <span id="braking"></span><br>
+                <br>
+                System time:<span id="system_time"> </span><br>
+            </div>
+            <div id="Navigation">
+                Current longitude: <span id="longitude"></span><br>
+                Current latitude: <span id="latitude"></span><br>
+                Current compass direction: <span id="compass"></span><br>
+                ETA to destination: <span id="ETA"></span><br>
+                Distance to destination: <span id="distance"></span><br>
+                How many waypoints are left: <span id="waypoints"></span><br>
+                Is there a turn coming up: <span id="turn"></span><br>
+                Is there a stop coming up: <span id="stop"></span><br>
+                Is there a speed limit coming up: <span id="speedlimit"></span><br>
+                Is there a traffic light coming up: <span id="trafficlight"></span><br>
+                Which lane should the car be in: <span id="lane"></span><br>
+                Which direction will the car be turning: <span id="direction"></span><br>
+            </div>
+            <div id="Turn_signals">
+                <span id="left_arrow_text">←</span>
+                <span id="right_arrow_text">→</span>
+            </div>
+            <div id="Speed_limit">
+                <br><br>The current speed limit is: <br><br><span id="current_speed_limit">0</span> km/h<br>
+            </div>
+            <div id="Current_speed">
+                <br><br>The current speed is: <br><br><span id="current_speed">0</span> km/h<br>
+            </div>
+            <div id="graphs">
+                <div id="speed_plot"></div>
+            </div>
+        </div>
+        
+    </body>
+</html>
