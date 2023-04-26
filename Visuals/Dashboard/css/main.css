@@ -4,7 +4,7 @@
     height: 600px;
     border-radius: 100px / 170px;
     padding-left: 30px;
-    padding-right: 10px;
+    padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     display: grid;
@@ -26,5 +26,7 @@
     background-color: grey;
     grid-column: 3;
     margin-left: 10px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
 }
 
